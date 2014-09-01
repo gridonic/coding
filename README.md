@@ -6,8 +6,7 @@ Gridonic Coding-Guidelines
 Currently available:
 
 - html.md
-- css.md
-- sass.md
+- css-sass.md
 - php.md
 
 ## Acknowledgments

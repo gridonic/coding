@@ -49,7 +49,21 @@ for (prop in object) {
 if (true) {
 
     // Statements
+} 
+else {
+
+    // Statements
 }
+
+var something;
+
+// Default case
+if (something === 'test') {
+
+    // Statements
+}
+
+// Explanation of the alternative cases
 else {
 
     // Statements
@@ -172,7 +186,7 @@ Object:
 
 Array:
 
-`Array.isArray( arrayLikeObject )` // Wherever possible
+`Array.isArray(arrayLikeObject)` // Wherever possible
 
 Node:
 
