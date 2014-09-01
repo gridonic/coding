@@ -17,7 +17,7 @@ Automatic Semicolon Insertion _(ASI)_ is not a feature. [Don't rely on it](http:
 
 > **Always add semicolons where needed**
 
-### Parens, braces, linebreaks
+### Parens, brackets, linebreaks
 
 ```javascript
 
@@ -64,7 +64,7 @@ We always use brackets. This, together with a reasonable spacing strategy, will 
 if (err) throw err;
 ```
 
-##### Good
+##### We always use brackets
 
 ```js
 if (err) { 
@@ -153,8 +153,6 @@ fooBar.options;
 There is no difference in how JavaScript interprets single- or double-quotes. We always use single-quotes.
 
 ### Type checking<a name="type"></a>
-
-#### Actual types
 
 String:
 
@@ -364,11 +362,11 @@ SYMBOLIC_CONSTANTS_LIKE_THIS;
 Early returns promote code readability with negligible performance difference
 
 ```javascript
-// 7.B.1.1
-function returnEarly( foo ) {
-    if ( foo ) {
+function returnEarly(foo) {
+    if (foo) {
         return 'foo';
     }
+
     return 'quux';
 }
 ```
