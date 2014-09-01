@@ -35,7 +35,7 @@ The following are our rules that we enforce over all languages:
 	- Eliminate end of line whitespace.
 	- Eliminate blank line whitespace.
 	- Create commits and diffs that are easier to read.
-3. We use an [EditorConfig](http://editorconfig.org/) file per project to help maintain the basic whitespace conventions.
+3. We use an [EditorConfig](http://editorconfig.org/) file per project to help maintain the basic whitespace conventions. A basic .editorconfig file is available in this repository.
 
 ### Comments
 
@@ -46,6 +46,6 @@ Comment style should be simple and consistent within a single code base.
 - Keep line-length to a sensible maximum, e.g., 80 columns.
 - Use "sentence case" comments and consistent text indentation. 
 
-Tip: Write comments before you write the actual code. It forces you to verbalize and structure in your head what the code will do and what purpose it serves.
+Tip: Write comments before you write the actual code of the class, method, component, etc. It forces you to verbalize and structure in your head what the code will do and what purpose it serves.
 
 Tip: configure your editor to provide you with shortcuts to output agreed-upon comment patterns.
