@@ -1,7 +1,7 @@
 # Writing JavaScript
 
 ## Acknowledgments
-This guideline is based in large parts on [https://github.com/necolas/idiomatic-js](https://github.com/necolas/idiomatic-js) and [https://github.com/bevacqua/js](https://github.com/bevacqua/js)].
+This guideline is based in large parts on [https://github.com/necolas/idiomatic-js](https://github.com/necolas/idiomatic-js) and [https://github.com/bevacqua/js](https://github.com/bevacqua/js).
 
 ## General Principles<a name="general"></a>
 
@@ -13,7 +13,7 @@ We always put 'use strict'; at the top of our modules. Strict mode allows us to 
 
 ## Semicolons`;`
 
-Automatic Semicolon Insertion _(ASI)_ is not a feature. [Don't rely on it][http://benalman.com/news/2013/01/advice-javascript-semicolon-haters/]. It's [super complicated][http://www.2ality.com/2011/05/semicolon-insertion.html] and there's no practical reason to burden all of the developers in a team for not possessing **the frivolous knowledge of how ASI works**. We avoid headaches, we avoid ASI.
+Automatic Semicolon Insertion _(ASI)_ is not a feature. [Don't rely on it](http://benalman.com/news/2013/01/advice-javascript-semicolon-haters/). It's [super complicated](http://www.2ality.com/2011/05/semicolon-insertion.html) and there's no practical reason to burden all of the developers in a team for not possessing **the frivolous knowledge of how ASI works**. We avoid headaches, we avoid ASI.
 
 > **Always add semicolons where needed**
 
@@ -21,7 +21,7 @@ Automatic Semicolon Insertion _(ASI)_ is not a feature. [Don't rely on it][http:
 
 #### Conditionals
 
-We always use brackets. This, together with a reasonable spacing strategy will help you avoid mistakes such as [Apple's SSL/TLS bug][https://www.imperialviolet.org/2014/02/22/applebug.html].
+We always use brackets. This, together with a reasonable spacing strategy will help you avoid mistakes such as [Apple's SSL/TLS bug]([)https://www.imperialviolet.org/2014/02/22/applebug.html).
 
 ##### Bad
 
