@@ -7,7 +7,7 @@ This guideline is based in large parts on [https://github.com/necolas/idiomatic-
 
 ### Strict Mode
 
-We always put 'use strict'; at the top of our modules. Strict mode allows us to catch nonsensical behavior, discourages poor practices, and is faster because it allows compilers to make certain assumptions about our code.
+We always put 'use strict'; at the top of our modules. Strict mode allows us to catch nonsensical behavior, discourage poor practices, and is faster because it allows compilers to make certain assumptions about our code.
 
 ## Syntax<a name="syntax"></a>
 
@@ -18,23 +18,6 @@ Automatic Semicolon Insertion _(ASI)_ is not a feature. [Don't rely on it](http:
 > **Always add semicolons where needed**
 
 ### Parens, braces, linebreaks
-
-#### Conditionals
-
-We always use brackets. This, together with a reasonable spacing strategy will help you avoid mistakes such as [Apple's SSL/TLS bug]([)https://www.imperialviolet.org/2014/02/22/applebug.html).
-
-##### Bad
-
-```js
-if (err) throw err;
-```
-
-##### Good
-
-```js
-if (err) { throw err; }
-```
-Syntax examples:
 
 ```javascript
 
@@ -72,6 +55,20 @@ else {
 }
 ```
 
+We always use brackets. This, together with a reasonable spacing strategy will help us avoid mistakes such as [Apple's SSL/TLS bug](https://www.imperialviolet.org/2014/02/22/applebug.html).
+
+##### Bad
+
+```js
+if (err) throw err;
+```
+
+##### Good
+
+```js
+if (err) { throw err; }
+```
+
 ### Assignments, declarations, functions (named, expression, constructor)
 
 ```javascript
@@ -88,7 +85,7 @@ var array = [];
 var object = {};
 
 
-// var statements should always be in the beginning of their respective scope (function).
+// Var statements should always be in the beginning of their respective scope (function).
 // Same goes for const and let from ECMAScript 6.
 
 function foo() {
@@ -126,15 +123,15 @@ square(10, function(square) {
     // Callback statements
 });
 
-// Function expression with identifier
+// We use function expressions with identifier
 // This form has the added value of being
 // able to call itself and have an identity in stack traces:
 var factorial = function factorial(number) {
-    if ( number < 2 ) {
+    if (number < 2) {
         return 1;
     }
 
-    return number * factorial( number - 1 );
+    return number * factorial(number - 1);
 };
 
 // Constructor declaration
@@ -154,7 +151,7 @@ There is no difference in how JavaScript interprets single- or double-quotes. We
 
 ### Type checking<a name="type"></a>
 
-#### A. Actual types
+#### Actual types
 
 String:
 
