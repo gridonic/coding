@@ -30,8 +30,22 @@ The whitespace rules set forth here and in the language specific documents serve
 The following are our rules that we enforce over all languages:
 
 1. We use 4 spaces for indentation.
-2. We configure our code editors to "show invisibles". This will allow us to:
+2. We configure our code editors to "show invisibles" and configure it to automatically remove end-of-line whitespace.
     - Enforce consistency.
 	- Eliminate end of line whitespace.
 	- Eliminate blank line whitespace.
 	- Create commits and diffs that are easier to read.
+3. We use an [EditorConfig](http://editorconfig.org/) file per project to help maintain the basic whitespace conventions.
+
+### Comments
+
+Well commented code is extremely important. We take time to describe our code, how it works, its limitations, and the way it is constructed. We don't leave others in the team guessing as to the purpose of uncommon or non-obvious code.
+
+Comment style should be simple and consistent within a single code base.
+
+- Keep line-length to a sensible maximum, e.g., 80 columns.
+- Use "sentence case" comments and consistent text indentation. 
+
+Tip: Write comments before you write the actual code. It forces you to verbalize and structure in your head what the code will do and what purpose it serves.
+
+Tip: configure your editor to provide you with shortcuts to output agreed-upon comment patterns.
