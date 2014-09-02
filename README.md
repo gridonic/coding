@@ -42,7 +42,7 @@ Well commented code is extremely important. We take time to describe our code, h
 
 Comment style should be simple and consistent within a single code base.
 
-- Keep line-length to a sensible maximum, e.g., 80 columns.
+- Keep line-length to a sensible maximum, e.g., 120 columns.
 - Use "sentence case" comments and consistent text indentation. 
 
 Tip: Write comments before you write the actual code of the class, method, component, etc. It forces you to verbalize and structure in your head what the code will do and what purpose it serves.
@@ -54,5 +54,6 @@ Tip: configure your editor to provide you with shortcuts to output agreed-upon c
 - Write guidelines for HTML
 - Restructure CSS/SASS and JS guidelines
 - Include BEM in CSS/SASS guidelines
+- CSS: Mention use of classes vs. ids
 - Add guidelines for Android and iOS developement
 - Write a skeleton module.js
