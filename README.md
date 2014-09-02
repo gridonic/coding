@@ -50,7 +50,9 @@ Tip: Write comments before you write the actual code of the class, method, compo
 Tip: configure your editor to provide you with shortcuts to output agreed-upon comment patterns.
 
 ### TODO
+- Create folders per language
 - Write guidelines for HTML
 - Restructure CSS/SASS and JS guidelines
 - Include BEM in CSS/SASS guidelines
+- Add guidelines for Android and iOS developement
 - Write a skeleton module.js
