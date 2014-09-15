@@ -333,7 +333,7 @@ var elements = [];
 var matches = query('#foo');
 var length = matches.length;
 
-for(idx = 0; idx < length; idx++){
+for (idx = 0; idx < length; idx++) {
     elements.push(matches[ idx ]);
 }
 ```
