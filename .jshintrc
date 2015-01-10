@@ -14,6 +14,7 @@
     "unused": false,
     "strict": true,
     "trailing": true,
+    "node": true,
 
     "eqnull": true,
     "esnext": true,
