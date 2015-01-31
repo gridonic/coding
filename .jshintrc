@@ -15,7 +15,6 @@
     "strict": true,
     "trailing": true,
     "node": true,
-
     "eqnull": true,
     "esnext": true,
     "smarttabs": false
