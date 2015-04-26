@@ -1,4 +1,4 @@
-Gridonic Coding-Guidelines
+Gridonic Coding Guidelines
 ==========================
 
 ## Overview
