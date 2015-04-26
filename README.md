@@ -1,5 +1,5 @@
 Gridonic Coding-Guidelines
-=================
+==========================
 
 ## Overview
 
@@ -31,9 +31,9 @@ The following are our rules that we enforce over all languages:
 1. We use 4 spaces for indentation.
 2. We configure our code editors to "show invisibles" and configure it to automatically remove end-of-line whitespace.
     - Enforce consistency.
-	- Eliminate end of line whitespace.
-	- Eliminate blank line whitespace.
-	- Create commits and diffs that are easier to read.
+    - Eliminate end of line whitespace.
+    - Eliminate blank line whitespace.
+    - Create commits and diffs that are easier to read.
 3. We use an [EditorConfig](http://editorconfig.org/) file per project to help maintain the basic whitespace conventions. A basic .editorconfig file is available in this repository.
 
 ### Comments
@@ -57,3 +57,14 @@ Tip: configure your editor to provide you with shortcuts to output agreed-upon c
 - CSS: Mention use of classes vs. ids
 - Add guidelines for Android and iOS developement
 - Write a skeleton module.js
+
+## License
+
+The gridonic coding guidelines are licensed under the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/). This applies to all documents in this repository.
+
+Based on work at
+
+- https://github.com/necolas/idiomatic-js
+- https://github.com/necolas/idiomatic-css
+- https://github.com/bevacqua/js
+- https://github.com/bevacqua/css
