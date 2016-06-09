@@ -13,6 +13,7 @@ Our style guide for writing HTML is based on the [Code Guide by @mdo](http://cod
 - [Practicality over purity](#practicality-over-purity)
 - [Attribute order](#attribute-order)
 - [Boolean attributes](#boolean-attributes)
+- [IDs vs classes](#ids-vs-classes)
 - [Reducing markup](#reducing-markup)
 - [JavaScript generated markup](#javaScript-generated-markup)
 
@@ -44,8 +45,8 @@ Enforce standards mode and more consistent rendering in every browser possible w
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
+    <head>
+    </head>
 </html>
 ```
 
@@ -63,7 +64,7 @@ Head to Sitepoint for a [list of language codes](https://www.sitepoint.com/web-f
 
 ```html
 <html lang="en-us">
-  <!-- ... -->
+    <!-- ... -->
 </html>
 ```
 
@@ -74,7 +75,7 @@ you may avoid using character entities in your HTML, provided their encoding mat
 
 ```html
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
 </head>
 ```
 
@@ -106,7 +107,7 @@ HTML5 spec links
 
 <!-- In-document CSS -->
 <style>
-  /* ... */
+    /* ... */
 </style>
 
 <!-- JavaScript -->
@@ -134,7 +135,7 @@ Classes make for great reusable components, so they come first. Ids are more spe
 
 ```html
 <a class="..." id="..." data-toggle="modal" href="#">
-  Example link
+    Example link
 </a>
 
 <input class="form-control" type="text">
@@ -164,8 +165,23 @@ If you must include the attribute's value, and **you don't need to**, follow thi
 <input type="checkbox" value="1" checked>
 
 <select>
-  <option value="1" selected>1</option>
+    <option value="1" selected>1</option>
 </select>
+```
+
+## IDs vs classes
+
+Always use classes for styles. When possible, use IDs when you need to target an element in JavaScript. This makes 
+elements used in JavaScript very easy to spot.
+
+```html
+<a class="...">
+    I am a styled link
+</a>
+
+<form class="..." id="...">
+    I am used somewhere in JavaScript
+</form>
 ```
 
 ## Reducing markup
@@ -176,7 +192,7 @@ but produces less HTML. Take the following example:
 ```html
 <!-- Not so great -->
 <span class="avatar">
-  <img src="...">
+    <img src="...">
 </span>
 
 <!-- Better -->
