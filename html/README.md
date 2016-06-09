@@ -9,7 +9,7 @@ Our style guide for writing HTML is based on the [Code Guide by @mdo](http://cod
 - [Language attribute](#language-attribute)
 - [Character encoding](#character-encoding)
 - [IE compatibility mode](#ie-compatibility-mode)
-- [CSS and JavaScript includes](#css-and-javaScript-includes)
+- [CSS and JavaScript includes](#css-and-javascript-includes)
 - [Practicality over purity](#practicality-over-purity)
 - [Attribute order](#attribute-order)
 - [Boolean attributes](#boolean-attributes)
