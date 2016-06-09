@@ -15,7 +15,7 @@ Our style guide for writing HTML is based on the [Code Guide by @mdo](http://cod
 - [Boolean attributes](#boolean-attributes)
 - [IDs vs classes](#ids-vs-classes)
 - [Reducing markup](#reducing-markup)
-- [JavaScript generated markup](#javaScript-generated-markup)
+- [JavaScript generated markup](#javascript-generated-markup)
 
 ## Syntax
 
