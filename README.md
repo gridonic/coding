@@ -57,7 +57,7 @@ Comment style should be simple and consistent within a single code base.
 > **Tip**: Write comments before you write the actual code of the class, method, component, etc. It forces you to verbalize 
 > and structure in your head what the code will do and what purpose it serves.
 
-**Tip**: Configure your editor to provide you with shortcuts to output agreed-upon comment patterns.
+> **Tip**: Configure your editor to provide you with shortcuts to output agreed-upon comment patterns.
 
 ### TODO
 
