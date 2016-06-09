@@ -51,11 +51,13 @@ way it is constructed. We don't leave others in the team guessing as to the purp
 
 Comment style should be simple and consistent within a single code base.
 
-- Keep line-length to a sensible maximum, e.g., 120 columns.
+- Keep line-length to a sensible maximum, e.g., 120 or 140 columns.
 - Use "sentence case" comments and consistent text indentation. 
 
 > **Tip**: Write comments before you write the actual code of the class, method, component, etc. It forces you to verbalize 
 > and structure in your head what the code will do and what purpose it serves.
+
+​
 
 > **Tip**: Configure your editor to provide you with shortcuts to output agreed-upon comment patterns.
 
