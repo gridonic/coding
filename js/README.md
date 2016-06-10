@@ -64,3 +64,10 @@ We increase the maximum line lenght from 100 to 160.
     "ignoreComments": false
 }]
 ```
+
+## Grunt
+
+Our tool of trade for build chains is [Grunt](http://gruntjs.com/). It might not be as fancy as gulp or webpack, but 
+it gets the job done. In order to make it also go out of our way, we use a super-simple [`Gruntfile.js`](./Gruntfile.js)
+and the [load-grunt-config](https://github.com/firstandthird/load-grunt-config) plugin to break our Gruntfile config up
+by task. To make the task loading fast, we spice it up with [jit-grunt](https://github.com/shootaroo/jit-grunt).
