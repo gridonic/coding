@@ -1,0 +1,13 @@
+# Default grunt task
+default:
+    - 'eslint'
+
+# Development build
+dev:
+    - 'eslint'
+    - 'shell:hello'
+
+# Production build
+prod:
+    - 'eslint'
+    - 'shell:hai'
