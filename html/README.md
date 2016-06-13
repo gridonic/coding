@@ -13,7 +13,7 @@ Our style guide for writing HTML is based on the [Code Guide by @mdo](http://cod
 - [Practicality over purity](#practicality-over-purity)
 - [Attribute order](#attribute-order)
 - [Boolean attributes](#boolean-attributes)
-- [IDs vs classes](#ids-vs-classes)
+- [IDs, classes and data attributes](#ids-classes-data-attributes)
 - [Reducing markup](#reducing-markup)
 - [JavaScript generated markup](#javascript-generated-markup)
 
@@ -169,17 +169,16 @@ If you must include the attribute's value, and **you don't need to**, follow thi
 </select>
 ```
 
-## IDs vs classes
+## IDs, classes and data attributes
 
-Always use classes for styles. When possible, use IDs when you need to target an element in JavaScript. This makes 
-elements used in JavaScript very easy to spot.
+Always use classes for styles. Avoid using IDs. Use `data` attributes when JavaScript funcionality is involved.
 
 ```html
 <a class="...">
     I am a styled link
 </a>
 
-<form class="..." id="...">
+<form class="..." data-js-component data-component-parameter="...">
     I am used somewhere in JavaScript
 </form>
 ```
