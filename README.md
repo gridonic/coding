@@ -63,7 +63,6 @@ Comment style should be simple and consistent within a single code base.
 
 ### TODO
 
-- Write guidelines for HTML
 - Restructure CSS/SASS and JS guidelines
 - Include BEM in CSS/SASS guidelines
 - CSS: Mention use of classes vs. ids
