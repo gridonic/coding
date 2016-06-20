@@ -9,7 +9,7 @@ We stick to the [RSCSS](http://rscss.io/) system, which follows the BEM conventi
     - [Selectors](#selectors)
     - [Properties](#properties)
 1. [CSS](#css)
-    - [Browser implementation](#implementation)
+    - [Browser implementation](#browser-implementation)
 1. [Sass](#sass)
     - [Format](#format)
     - [Ordering of property declarations](#ordering-of-property-declarations)
