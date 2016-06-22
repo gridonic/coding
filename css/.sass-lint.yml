@@ -2,6 +2,8 @@
 #
 # @see https://github.com/sasstools/sass-lint
 # @see https://github.com/sasstools/sass-lint/tree/master/docs/rules
+options:
+    formatter: stylish
 
 # When using grunt-sass-lint, options and files can also be specified in the task.
 # Using npm scripts (e.g. "lint:sass": "sass-lint -v -q"), specify the target
@@ -9,8 +11,6 @@
 # 
 # @see https://github.com/sasstools/grunt-sass-lint
 #
-#options:
-#    formatter: stylish
 #files:
 #    include: 'src/**/*.s+(a|c)ss'
 #    ignore:
