@@ -29,7 +29,7 @@ rules:
         - convention: zero
     brace-style:
         - 1
-        - allow-single-line: false
+        - allow-single-line: true
     class-name-format: 0
     clean-import-paths:
         - 1
