@@ -9,7 +9,6 @@ We stick to the [RSCSS](http://rscss.io/) system, which follows the BEM conventi
     - [Selectors](#selectors)
     - [Properties](#properties)
 1. [CSS](#css)
-    - [Browser implementation](#browser-implementation)
 1. [Sass](#sass)
     - [Format](#format)
     - [Ordering of property declarations](#ordering-of-property-declarations)
@@ -63,18 +62,9 @@ Finally, properties are what give the selected elements of a rule declaration th
 }
 ```
 
-
 ## CSS
 
 Nothing fancy since it's compiled by the Sass compiler.
-
-### Browser implementation
-
-As of the upcoming success of HTTP2 we are starting to get away from the "serve-one-fucking-big-css-file" approach and go back to the old @import method but in a more state-of-the-art way.
-
-
-TODO: Explain @component loader.
-
 
 ## Sass
 
@@ -354,8 +344,6 @@ The meta folder holds files which only have functions, mixins, variables and oth
 #### Components
 
 The components folder is a collection of all the pieces your user interface is providing. A component should always be the **smallest part of a repeating piece**, but can also be a collection of components.
-
-**REMEMBER:** Do not start the components scss file with an underscore (\_), since we dynamically load each components styling on demand! There is no concatenation of all styles.
 
 #### Shared
 
