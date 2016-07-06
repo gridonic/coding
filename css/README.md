@@ -127,7 +127,7 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
 
 1. Property declarations
 
-    List all standard property declarations **alphabetically**, anything that isn't an `@include` or a nested selector.
+    List all standard property declarations, anything that isn't an `@include` or a nested selector.
 
     ```scss
     .btn {
