@@ -87,7 +87,7 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
 - Use shorthand hex values where available, e.g., `#fff` instead of `#ffffff`.
 - Quote attribute values in selectors, e.g., `input[type="text"]`. [They’re only optional in some cases](http://mathiasbynens.be/notes/unquoted-attribute-values#css), and it’s a good practice for consistency.
 - Avoid specifying units for zero values, e.g., `margin: 0;` instead of `margin: 0px;`.
-- Use the .scss syntax, never the original .sass syntax.
+- Use the `.scss` syntax, never the original `.sass` syntax.
 
 
 ```scss
