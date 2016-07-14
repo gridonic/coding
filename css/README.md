@@ -287,7 +287,7 @@ Code is written and maintained by people. Ensure your code is descriptive, well 
 - Great code comments convey context or purpose.
 - Do not simply reiterate a component or class name.
 - Be sure to write in complete sentences for larger comments and succinct phrases for general notes.
-- Keep line-length to a sensible maximum, e.g., 80 columns.
+- Keep line-length to a sensible maximum, e.g., 120 columns.
 - Prefer comments on their own line. Avoid end-of-line comments.
 - Prefer line comments (// in Sass-land) to block comments.
 - Write detailed comments for code that isn't self-documenting:
