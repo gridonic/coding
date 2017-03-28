@@ -1,6 +1,6 @@
 # Writing CSS and Sass
 
-We stick to the [RSCSS](http://rscss.io/) system, which follows the BEM conventions. Our styleguide is based on the [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css) and the [Code Guide](http://codeguide.co/) by @mdo.
+We stick to the [rscss](http://rscss.io/) system, which follows the BEM conventions. Our guidelines are based on the [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css) and the [Code Guide](http://codeguide.co/) by @mdo.
 
 ## Table of contents
 
@@ -330,21 +330,3 @@ Long, comma-separated property values - such as collections of gradients or shad
         2px 2px 1px 1px #ccc inset;
 }
 ```
-
-## Boilerplate
-
-Since the Sass file and folder structure is a part of our @gridonic/[web-boilerplate](https://github.com/gridonic/web-boilerplate), you can have a look at it over [here](https://github.com/gridonic/web-boilerplate/tree/develop/src/scss).
-
-### Folder structure
-
-#### Meta
-
-The meta folder holds files which only have functions, mixins, variables and other definitions which do **NOT** compile to CSS.
-
-#### Components
-
-The components folder is a collection of all the pieces your user interface is providing. A component should always be the **smallest part of a repeating piece**, but can also be a collection of components.
-
-#### Shared
-
-All styles within the shared folder are used throughout the whole website in every view. They include generic styles of HTML elements such as forms, typefaces, images, debugging and so on.
