@@ -28,7 +28,7 @@ We stick to the [RSCSS](http://rscss.io/) system, which follows the BEM conventi
 
 ### Rule declaration
 
-A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here's an example:
+A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here’s an example:
 
 ```css
 .listing {
@@ -39,7 +39,7 @@ A “rule declaration” is the name given to a selector (or a group of selector
 
 ### Selectors
 
-In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes. Here are some examples of selectors:
+In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element’s class, ID, or any of its attributes. Here are some examples of selectors:
 
 ```css
 .my-element-class {
@@ -64,7 +64,7 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 ## CSS
 
-Nothing fancy since it's compiled by the Sass compiler.
+Nothing fancy since it’s compiled by the Sass compiler.
 
 ## Sass
 
@@ -72,14 +72,14 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
 
 ### Format
 
-- Use soft tabs with **4** (four) spaces, they're the only way to guarantee code renders the same in any environment.
+- Use soft tabs with **4** (four) spaces, they’re the only way to guarantee code renders the same in any environment.
 - When grouping selectors, keep individual selectors to a single line.
 - Include one space before the opening brace of declaration blocks for legibility.
 - Place closing braces of declaration blocks on a new line.
 - Use double quotes consistently.
 - Include one space after `:` for each declaration.
 - Each declaration should appear on its own line for more accurate error reporting.
-- End all declarations with a semi-colon. The last declaration's is optional, but your code is more error prone without it.
+- End all declarations with a semi-colon. The last declaration’s is optional, but your code is more error prone without it.
 - Comma-separated property values should include a space after each comma (e.g., `box-shadow`).
 - Include spaces after commas *within* `rgb()`, `rgba()`, `hsl()`, `hsla()`, or `rect()` values.
 - Prefix property values or color parameters with a leading zero (e.g., `0.5` instead of `.5` and `-0.5px` instead of `-.5px`).
@@ -127,7 +127,7 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
 
 1. Property declarations
 
-    List all standard property declarations, anything that isn't an `@include` or a nested selector.
+    List all standard property declarations, anything that isn’t an `@include` or a nested selector.
 
     ```scss
     .btn {
@@ -142,7 +142,7 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
 
 1. Media queries
 
-    Place media queries as close to their relevant rule sets whenever possible. Don't bundle them all in a separate stylesheet or at the end of the document.
+    Place media queries as close to their relevant rule sets whenever possible. Don’t bundle them all in a separate stylesheet or at the end of the document.
 
     ```scss
     .btn {
@@ -215,7 +215,7 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity �
 }
 ```
 
-When selectors become this long, you're likely writing Sass that is:
+When selectors become this long, you’re likely writing Sass that is:
 
 * Strongly coupled to the HTML (fragile) *—OR—*
 * Overly specific (powerful) *—OR—*
@@ -241,7 +241,7 @@ Strive to limit use of shorthand declarations to instances where you must explic
 - `border`
 - `border-radius`
 
-Often times we don't need to set all the values a shorthand property represents. For example, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.
+Often times we don’t need to set all the values a shorthand property represents. For example, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.
 
 The Mozilla Developer Network has a great article on [shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) for those unfamiliar with notation and behavior.
 
@@ -290,7 +290,7 @@ Code is written and maintained by people. Ensure your code is descriptive, well 
 - Keep line-length to a sensible maximum, e.g., 120 columns.
 - Prefer comments on their own line. Avoid end-of-line comments.
 - Prefer line comments (// in Sass-land) to block comments.
-- Write detailed comments for code that isn't self-documenting:
+- Write detailed comments for code that isn’t self-documenting:
     - Uses of z-index
     - Compatibility or browser-specific hacks
 

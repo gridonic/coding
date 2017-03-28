@@ -22,7 +22,7 @@ Our style guide for writing HTML is based on the [Code Guide by @mdo](http://cod
 - Use soft tabs with four spaces
 - Nested elements should be indented once (four spaces).
 - Always use double quotes, never single quotes, on attributes.
-- Don't include a trailing slash in self-closing elements—the HTML5 spec says they're optional.
+- Don’t include a trailing slash in self-closing elements—the HTML5 spec says they’re optional.
 - Don’t omit optional closing tags (e.g. `</li>` or `</body>`).
 
 ```html
@@ -54,7 +54,7 @@ Enforce standards mode and more consistent rendering in every browser possible w
 
 From the HTML5 spec:
 
-> Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. 
+> Authors are encouraged to specify a lang attribute on the root html element, giving the document’s language. 
 > This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what 
 > rules to use, and so forth.
 
@@ -81,7 +81,7 @@ you may avoid using character entities in your HTML, provided their encoding mat
 
 ## IE compatibility mode
 Internet Explorer supports the use of a document compatibility `<meta>` tag to specify what version of IE the page should 
-be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported 
+be rendered as. Unless circumstances require otherwise, it’s most useful to instruct IE to use the latest supported 
 mode with **edge mode**.
 
 For more information, read [this awesome Stack Overflow article](http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e).
@@ -152,12 +152,12 @@ For further reading, consult the [WhatWG section on boolean attributes](http://w
 > The presence of a boolean attribute on an element represents the true value, and the absence of the attribute 
 > represents the false value.
 
-If you must include the attribute's value, and **you don't need to**, follow this WhatWG guideline:
+If you must include the attribute’s value, and **you don’t need to**, follow this WhatWG guideline:
 
-> If the attribute is present, its value must either be the empty string or [...] the attribute's canonical name, with 
+> If the attribute is present, its value must either be the empty string or [...] the attribute’s canonical name, with 
 > no leading or trailing whitespace.
 
-**In short, don't add a value.**
+**In short, don’t add a value.**
 
 ```html
 <input type="text" disabled>
