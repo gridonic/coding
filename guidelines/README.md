@@ -1,5 +1,4 @@
-Gridonic Coding Guidelines
-==========================
+# Gridonic Coding Guidelines
 
 ## Overview
 
@@ -36,12 +35,12 @@ our definition. Then the frameworks guidelines win, but only for code we author 
 The following are our rules that we enforce over all languages:
 
 1. We use 4 spaces for indentation.
-2. We configure our code editors to “show invisibles” and configure it to automatically remove end-of-line whitespace.
+1. We configure our code editors to “show invisibles” and configure it to automatically remove end-of-line whitespace.
     - Enforce consistency.
     - Eliminate end of line whitespace.
     - Eliminate blank line whitespace.
     - Create commits and diffs that are easier to read.
-3. We use an [EditorConfig](http://editorconfig.org/) file per project to help maintain the basic whitespace conventions.
+1. We use an [EditorConfig](http://editorconfig.org/) file per project to help maintain the basic whitespace conventions.
    A basic [.editorconfig](.editorconfig) file is available in this repository.
 
 ### Comments
@@ -57,14 +56,4 @@ Comment style should be simple and consistent within a single code base.
 > **Tip**: Write comments before you write the actual code of the class, method, component, etc. It forces you to verbalize
 > and structure in your head what the code will do and what purpose it serves.
 
-​
-
 > **Tip**: Configure your editor to provide you with shortcuts to output agreed-upon comment patterns.
-
-### TODO
-
-- Restructure CSS/SASS and JS guidelines
-- Include BEM in CSS/SASS guidelines
-- CSS: Mention use of classes vs. ids
-- Add guidelines for Android and iOS developement
-- Write a skeleton module.js
