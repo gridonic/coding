@@ -1,4 +1,4 @@
-# Gridonic Coding Guidelines
+# Coding Guidelines
 
 ## Overview
 
