@@ -11,6 +11,7 @@ Our coding manual represents everything we need to know in order to keep a *cons
 1. [IDEs / Editors]
 1. [Linters]
 1. [Recipes]
+1. [Best practices]
 
 ## Guidelines
 
@@ -38,6 +39,10 @@ Currently we have configuration files prepared for those linters:
 
 Have a look at the repository’s [Wiki] for a collection of recipes regarding specific coding challenges / topics.
 
+## Best practices
+
+Want to know how we write *constructors*, handle *state delegation* or use the *[factory pattern]*? Or what’s in general the best practice to write a, b or c? Have a look at our [CodePen] account or check out the [Wiki].
+
 ##  
 <p align="center">
   <a href="https://gridonic.ch">gridonic.ch</a> ・
@@ -49,9 +54,12 @@ Have a look at the repository’s [Wiki] for a collection of recipes regarding s
 [Linters]: #linters
 [IDEs / Editors]: #ides--editors
 [Recipes]: #recipes
+[Best practices]: #best-practices
 [Wiki]: https://github.com/gridonic/coding/wiki
 [computer language]: https://en.wikipedia.org/wiki/Computer_language
 [static analysis]: https://en.wikipedia.org/wiki/Static_code_analysis
 [ESLint]: http://eslint.org/
 [stylelint]: https://stylelint.io/
 [EditorConfig]: http://editorconfig.org/
+[CodePen]: https://codepen.io/gridonic/collections/
+[factory pattern]: https://en.wikipedia.org/wiki/Factory_method_pattern
