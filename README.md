@@ -7,10 +7,10 @@ Our coding manual represents everything we need to know in order to keep a *cons
 
 ## Table of contents
 
-0. [Guidelines]
-0. [IDEs / Editors]
-0. [Linters]
-0. [Recipes]
+1. [Guidelines]
+1. [IDEs / Editors]
+1. [Linters]
+1. [Recipes]
 
 ## Guidelines
 
@@ -47,7 +47,7 @@ Have a look at the repository’s [Wiki] for a collection of recipes regarding s
 
 [Guidelines]: #guidelines
 [Linters]: #linters
-[IDEs / Editors]: #ides-editors
+[IDEs / Editors]: #ides--editors
 [Recipes]: #recipes
 [Wiki]: https://github.com/gridonic/coding/wiki
 [computer language]: https://en.wikipedia.org/wiki/Computer_language
