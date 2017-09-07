@@ -139,6 +139,34 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
         // ...
     }
     ```
+    
+    **Group related standard property declarations together!**
+    
+    BAD:
+    
+    ```scss
+    .btn {
+        top: 0;
+        font-weight: bold;
+        margin-left: 1em;
+        text-align: center;
+        left: 0;
+        margin-top: 2em;
+    }
+    ```
+    
+    GOOD:
+    
+    ```scss
+    .btn {
+        top: 0;
+        left: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+    ```
 
 1. Media queries
 
