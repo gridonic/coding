@@ -1,3 +1,4 @@
+# editorconfig.org
 root = true
 
 [*]
@@ -10,3 +11,6 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.{json,yml}]
+indent_size = 2
