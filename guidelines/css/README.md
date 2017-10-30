@@ -125,9 +125,9 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
     }
     ```
 
-1. Property declarations
+2. Property declarations
 
-    List all standard property declarations, anything that isn’t an `@include` or a nested selector.
+    List all standard property declarations — anything that isn’t an `@include` or a nested selector.
 
     ```scss
     .btn {
@@ -137,6 +137,34 @@ As written in the introduction we use the [RSCSS](http://rscss.io/) system. That
         background: green;
         font-weight: bold;
         // ...
+    }
+    ```
+    
+    Order related properties together as it makes sense for your mental model of the styled object. Strive for maximum readability for all developers. See the following examples:
+    
+    ```scss
+    // ✗ Bad: margins and positioning properties are not grouped together. 
+    //        This makes it hard to imagine the element at a glance,
+    //        especially if there is a long list of properties
+    .btn {
+        top: 0;
+        font-weight: bold;
+        margin-left: 1em;
+        text-align: center;
+        left: 0;
+        margin-top: 2em;
+    }
+    ```
+
+    ```scss
+    // ✓ Better
+    .btn {
+        top: 0;
+        left: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        font-weight: bold;
+        text-align: center;
     }
     ```
 
