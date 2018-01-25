@@ -40,7 +40,7 @@ Wrap the body at 72 characters in order to keep the messages readable when using
 ### Examples
 
 ```
-PROJ-123: Refactored frontend build system.Removed some bower dependencies like fastclick, modernizr etc. Re-added all dependencies via npm and update grunt file.
+PROJ-123: Refactored frontend build system. Removed some bower dependencies like fastclick, modernizr etc. Re-added all dependencies via npm and update grunt file.
 ```
 
 The above example violates the following rules:
