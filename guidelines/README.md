@@ -50,7 +50,7 @@ way it is constructed. We don’t leave others in the team guessing as to the pu
 
 Comment style should be simple and consistent within a single code base.
 
-- Keep line-length to a sensible maximum, e.g., 120 or 160 columns.
+- Keep line-length to a maximum of **120** characters.
 - Use “sentence case” comments and consistent text indentation.
 
 > **Tip**: Write comments before you write the actual code of the class, method, component, etc. It forces you to verbalize

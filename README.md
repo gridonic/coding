@@ -2,7 +2,8 @@
 
 # Coding manual
 
-Our coding manual represents everything we need to know in order to keep a *consistent* coding style and make collaboration a *breeze*.
+Our coding manual represents everything we need to know in order to keep a *consistent* coding style and make 
+collaboration a *breeze*.
 
 
 ## Table of contents
@@ -25,7 +26,8 @@ Have a look at the [`.editorconfig`](./.editorconfig) file for any details.
 
 ## Linters
 
-> […] generically, lint or a **linter** is any tool that flags suspicious usage in software written in any [computer language]. […] Lint-like tools generally perform [static analysis] of source code.<sup>1</sup>
+> […] generically, lint or a **linter** is any tool that flags suspicious usage in software written in any 
+[computer language]. […] Lint-like tools generally perform [static analysis] of source code.<sup>1</sup>
 
 Currently we have configuration files prepared for those linters:
 
@@ -41,7 +43,8 @@ Have a look at the repository’s [Wiki] for a collection of recipes regarding s
 
 ## Best practices
 
-Want to know how we write *constructors*, handle *state delegation* or use the *[factory pattern]*? Or what’s in general the best practice to write a, b or c? Have a look at our [CodePen] account or check out the [Wiki].
+Want to know how we write *constructors*, handle *state delegation* or use the *[factory pattern]*? Or what’s in 
+general the best practice to write a, b or c? Have a look at our [CodePen] account or check out the [Wiki].
 
 ##  
 <p align="center">

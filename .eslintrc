@@ -7,7 +7,7 @@
         }],
         "comma-dangle": ["error", "never"],
         "no-console": 0,
-        "max-len": ["error", 160, 2, {
+        "max-len": ["error", 120, 2, {
             "ignoreUrls": true,
             "ignoreComments": false
         }]
