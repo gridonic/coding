@@ -6,6 +6,7 @@
 - [CSS / Sass](./css)
 - [JavaScript](./js)
 - [PHP](./php)
+- [Git](./git)
 
 ## Acknowledgments
 
