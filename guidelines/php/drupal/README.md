@@ -75,14 +75,14 @@ And at the end 2 exceptions which are allowed in the Drupal Coding standards as 
     
 For better understanding what is possible, you can see the [`DrupalStandardsExampleClass.php`](DrupalStandardsExampleClass.php) in this directory to look at some examples.
 
-## How to follow our standards
+## How to check the standards with PHP_CodeSniffer
 
-Just use our [`phpcs.xml.dist`](phpcs.xml.dist) and set it as your own standard.
+Just look into our [`phpcs.xml.dist`](phpcs.xml.dist) and set it as your own standard.
 
-Set the default paths (Drupal is installed with [Composer](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal)).
+Set the default paths for PHP_CodeSniffer (Drupal is installed with [Composer](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal)).
 
     ./vendor/bin/phpcs --config-set installed_paths ../../drupal/coder/coder_sniffer
     
-And run the code_sniffer to check our standards
+And run the PHP_CodeSniffer to check our standards
 
     ./vendor/bin/phpcs
