@@ -34,7 +34,7 @@ our definition. Then the frameworks guidelines win, but only for code we author 
 
 The following are our rules that we enforce over all languages:
 
-1. We use 4 spaces for indentation.
+1. We use 4 spaces for indentation and 2 spaces in drupal-projects.
 1. We configure our code editors to “show invisibles” and configure it to automatically remove end-of-line whitespace.
     - Enforce consistency.
     - Eliminate end of line whitespace.

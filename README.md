@@ -33,6 +33,7 @@ Currently we have configuration files prepared for those linters:
 
 * [ESLint] ([`.eslintrc`](./.eslintrc))
 * [stylelint] ([`.stylelintrc`](./.stylelintrc))
+* [drupal-lint] ([`phpcs.xml.dist`](guidelines/php/drupal/phpcs.xml.dist))
 
 ##  
 <sup>1</sup> https://en.wikipedia.org/wiki/Lint_(software)
