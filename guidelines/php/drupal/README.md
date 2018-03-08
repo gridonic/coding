@@ -4,6 +4,12 @@ Writing PHP in Drupal 8
 We follow the [Drupal Coding standards](https://www.drupal.org/docs/develop/standards).
 For our Drupal 8 projects we have a separate [How-do-we-drupal-article](https://github.com/gridonic/drupal8).
 
+When you read carefully our global guidelines you find the line:
+
+> We use 4 spaces for indentation
+
+In our drupal projects we will ignore the 4 spaces in all php- & twig-files and we use just 2 spaces for indentation.
+
 ## Exceptions
 
 During the time of developing Drupal-projects we have noticed that not all rules are really suitable.
