@@ -79,7 +79,7 @@ For better understanding what is possible, you can see the [`DrupalStandardsExam
 
 Just use our [`phpcs.xml.dist`](phpcs.xml.dist) and set it as your own standard.
 
-Set the default paths (Drupal is installed with composer).
+Set the default paths (Drupal is installed with [Composer](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal)).
 
     ./vendor/bin/phpcs --config-set installed_paths ../../drupal/coder/coder_sniffer
     
