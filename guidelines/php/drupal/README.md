@@ -81,8 +81,8 @@ Just look into our [`phpcs.xml.dist`](phpcs.xml.dist) and set it as your own sta
 
 Set the default paths for PHP_CodeSniffer (Drupal is installed with [Composer](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal)).
 
-    ./vendor/bin/phpcs --config-set installed_paths ../../drupal/coder/coder_sniffer
+    $ ./vendor/bin/phpcs --config-set installed_paths ../../drupal/coder/coder_sniffer
     
 And run the PHP_CodeSniffer to check our standards
 
-    ./vendor/bin/phpcs
+    $ ./vendor/bin/phpcs
