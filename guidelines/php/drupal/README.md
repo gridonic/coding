@@ -2,18 +2,21 @@ Writing PHP in Drupal 8
 =======================
 
 We follow the [Drupal Coding standards](https://www.drupal.org/docs/develop/standards).
-For our Drupal 8 projects we have a separate [How-do-we-drupal-article](https://github.com/gridonic/drupal8).
+For our Drupal 8 projects we have a separate
+[How-do-we-drupal-article](https://github.com/gridonic/drupal8).
 
-When you read carefully our global guidelines you find the line:
+When you read our global guidelines carefully you find the line:
 
 > We use 4 spaces for indentation
 
-In our drupal projects we will ignore the 4 spaces in all php- & twig-files and we use just 2 spaces for indentation.
+In our drupal projects we will ignore the 4 spaces in all php- & twig-files and
+we use just 2 spaces for indentation.
 
 ## Exceptions
 
-During the time of developing Drupal-projects we have noticed that not all rules are really suitable.
-So we have allowed some exceptions we want to list here:
+We adhere to most rules for Drupal project, but add some exceptions where we
+disagree or find the original Drupal rules not suitable for our use case(s).
+These exceptions are listed below.
 
 ### Comments
 
@@ -43,7 +46,8 @@ public function exampleFunction($value_a, $value_b) {
 }
 ```
 
-In most of the functions this makes sense and we use this. But from time to time part of the comment is really clear.
+In most of the functions this makes sense and we use this. But from time to
+time part of the comment is really clear.
 
 You can write the same comment without the descriptions:
 
@@ -72,7 +76,8 @@ But if you wanna add descriptions, they have to be in the correct way:
  */
 ```
 
-And at the end 2 exceptions which are allowed in the Drupal Coding standards as well:
+And at the end 2 exceptions which are allowed in the Drupal Coding standards as
+well:
 
 ```php
 /**
@@ -87,13 +92,17 @@ function THEMENAME_preprocess(array &$variables) {
 }
 ```
 
-For better understanding what is possible, you can see the [`DrupalStandardsExampleClass.php`](DrupalStandardsExampleClass.php) in this directory to look at some examples.
+For better understanding what is possible, you can see the
+[`DrupalStandardsExampleClass.php`](DrupalStandardsExampleClass.php) in this
+directory to look at some examples.
 
 ## How to check the standards with PHP_CodeSniffer
 
-Just look into our [`phpcs.xml.dist`](phpcs.xml.dist) and set it as your own standard.
+Just look into our [`phpcs.xml.dist`](phpcs.xml.dist) and set it as your own
+standard.
 
-Set the default paths for PHP_CodeSniffer (Drupal is installed with [Composer](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal)).
+Set the default paths for PHP_CodeSniffer (Drupal is installed with
+[Composer](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal)).
 
     $ ./vendor/bin/phpcs --config-set installed_paths ../../drupal/coder/coder_sniffer
 
