@@ -60,11 +60,25 @@ You can write the same comment without the descriptions:
  */
 ```
 
-But if you wanna add descriptions, they have to be in the correct way:
+But if you want to add descriptions to the comment, they need to respect the
+following format:
+
+* Every comment must end with a full stop.
+* The short title of a function must not be longer than 80 characters, or the
+limit according to our modified standards.
+* The optional longer description of a function must be separated by a blank
+line from the short title.
+* Group the different tags like `@param`, `@return`, `@see`, `@throws`, ...
+* Add an empty line between the grouped tags.
+* Start with the Parameter tags (`@param`).
+* Descriptions of tags go to the next line and are indented with 2 spaces.
 
 ```php
 /**
  * An optional title.
+ *
+ * An optional longer description
+ * which goes over more than one line.
  * 
  * @param string $value_a
  *   An optional description.
