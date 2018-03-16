@@ -65,9 +65,9 @@ following format:
 
 * Every comment must end with a full stop.
 * The short title of a function must not be longer than 80 characters, or the
-limit according to our modified standards.
+  limit according to our modified standards.
 * The optional longer description of a function must be separated by a blank
-line from the short title.
+  line from the short title.
 * Group the different tags like `@param`, `@return`, `@see`, `@throws`, ...
 * Add an empty line between the grouped tags.
 * Start with the Parameter tags (`@param`).
@@ -105,10 +105,20 @@ function THEMENAME_preprocess(array &$variables) {
   ...
 }
 ```
+### CamelCase or snake_case?
+
+We use camelCase except:
+
+* In the `*.theme`-Files we use snake_case because we don't want to mix up with
+  the default drupal_hook_functions. And it's like a Drupal-Standard.
+* In the `*.install`-Files because of the same reason.
+* In the `*.module`-Files because of the same reason.
+
+## Examples
 
 For better understanding what is possible, you can see the
-[`DrupalStandardsExampleClass.php`](DrupalStandardsExampleClass.php) in this
-directory to look at some examples.
+[`DrupalStandardsExampleClass.php`](DrupalStandardsExampleClass.php) and the
+[`example.theme`](example.theme) in this directory to look at some examples.
 
 ## How to check the standards with PHP_CodeSniffer
 

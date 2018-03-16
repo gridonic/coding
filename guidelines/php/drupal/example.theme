@@ -1,0 +1,63 @@
+<?php
+
+/**
+ * @file
+ * Functions to support this example theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for html.html.twig.
+ */
+function example_preprocess_html(array &$variables) {
+  $original_node = $variables['node'];
+
+  // Do something with the $node.
+  $nid = $original_node->id();
+
+  // Set $nid as a new variable.
+  $variables['nid'] = $nid;
+}
+
+/**
+ * Or you write a real comment.
+ *
+ * For example you can descripe which fields you handle:
+ *  - field_title
+ *  - field_node_id
+ * Or whatever you want to describe.
+ *
+ * @param array $variables
+ * @param string $hook
+ */
+function example_preprocess_field(array $variables, $hook) {
+  if ($hook === 'field_title') {
+    $variables['title'] = 'Lorem Ipsum';
+  }
+  elseif ($hook === 'field_node_id') {
+    $node = $variables['node'];
+    $variables['another_example'] = _custom_example_function($node->id(), $node->type());
+  }
+}
+
+/**
+ * Private functions.
+ *
+ * When you want to add some "private" functions just for the useage in this
+ * file, start their name with an underscore (_) and place them at the bottom of
+ * the file, so you can find them easier.
+ */
+
+/**
+ * This is an example of a private function.
+ *
+ * @param int $node_id
+ * @param string $node_type
+ *
+ * @return array
+ */
+function _custom_example_function($node_id, $node_type) {
+  return array(
+    'id' => $node_id,
+    'type' => $node_type,
+  );
+}

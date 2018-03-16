@@ -35,15 +35,15 @@ class DrupalStandardsExampleClass {
    *
    * And a longer description for this interesting comment.
    *
-   * @param \Drupal\Core\Entity\EntityTypeManagerInterface $value_a
+   * @param \Drupal\Core\Entity\EntityTypeManagerInterface $valueA
    *   This is the description of the value A.
-   * @param \Drupal\node\Entity\Node $value_b
+   * @param \Drupal\node\Entity\Node $valueB
    *   This is the description of the value B.
    */
-  public function __construct(EntityTypeManagerInterface $value_a,
-                              Node $value_b) {
-    $this->privateValueA = $value_a;
-    $this->privateValueB = $value_b;
+  public function __construct(EntityTypeManagerInterface $valueA,
+                              Node $valueB) {
+    $this->privateValueA = $valueA;
+    $this->privateValueB = $valueB;
   }
 
   /**
@@ -55,12 +55,24 @@ class DrupalStandardsExampleClass {
    *  - Exclamation mark !
    *  - Closing brace )
    *
+   * @param array $arrayVariableA
+   *   The array for variable a.
+   * @param array $arrayVariableB
+   *   Another array for variable b.
+   *
    * @return \Drupal\node\Entity\Node
    *   This comment does not use a full stop
    */
-  public function exampleFunctionA() {
+  public function exampleFunctionA(array $arrayVariableA, array $arrayVariableB) {
     $node_storage = $this->privateValueA->getStorage('node');
     $nid = $this->privateValueB->id();
+
+    if (isset($arrayVariableA[$nid])) {
+      $nid++;
+    }
+    elseif (isset($arrayVariableB[$nid])) {
+      $nid--;
+    }
 
     // Add an inline comment. With a full stop at the end.
     $nodes = $node_storage->load($nid);
