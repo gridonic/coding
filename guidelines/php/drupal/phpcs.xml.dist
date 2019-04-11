@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ruleset name="drupal_gridonic">
+  <description>The coding standard for Gridonic.</description>
+
+  <arg name="extensions" value="inc,info,install,module,php,profile,test,theme" />
+  <arg name="colors" />
+
+  <file>./web/modules/custom</file>
+  <file>./web/themes</file>
+
+  <exclude-pattern>*/assets/*</exclude-pattern>
+
+  <rule ref="Drupal">
+    <exclude name="Drupal.Commenting.FunctionComment.MissingReturnComment"/>
+    <exclude name="Drupal.Commenting.FunctionComment.MissingParamComment"/>
+    <exclude name="Drupal.Commenting.DocComment.MissingShort"/>
+  </rule>
+
+  <rule ref="DrupalPractice" />
+
+</ruleset>

@@ -33,6 +33,7 @@ Currently we have configuration files prepared for those linters:
 
 * [ESLint] ([`.eslintrc`](./.eslintrc))
 * [stylelint] ([`.stylelintrc`](./.stylelintrc))
+* [PHP_CodeSniffer] for Drupal 8 ([`phpcs.xml.dist`](guidelines/php/drupal/phpcs.xml.dist))
 
 ##  
 <sup>1</sup> https://en.wikipedia.org/wiki/Lint_(software)
@@ -63,6 +64,7 @@ general the best practice to write a, b or c? Have a look at our [CodePen] accou
 [static analysis]: https://en.wikipedia.org/wiki/Static_code_analysis
 [ESLint]: http://eslint.org/
 [stylelint]: https://stylelint.io/
+[PHP_CodeSniffer]: https://github.com/squizlabs/PHP_CodeSniffer
 [EditorConfig]: http://editorconfig.org/
 [CodePen]: https://codepen.io/gridonic/collections/
 [factory pattern]: https://en.wikipedia.org/wiki/Factory_method_pattern
