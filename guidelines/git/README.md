@@ -6,6 +6,8 @@
 
 ## Commit messages
 
+**DEPRECATED: See the gitlab engineering group for further details**
+
 We write our commit messages based on [these guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) proposed by Tim Pope:
 
 * Use the english language
